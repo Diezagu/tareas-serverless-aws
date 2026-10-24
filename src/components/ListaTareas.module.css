@@ -1,0 +1,41 @@
+.contenedor {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: solid;
+  box-shadow: 5px 5px 10px rgb(88, 82, 82);
+}
+
+.lista {
+  list-style-type: none
+}
+
+.completada {
+  opacity: 0.5;
+  text-decoration: line-through
+}
+
+.alert {
+  color: red
+}
+
+.status {
+  color: grey
+}
+
+.formulario {
+  display: flex;
+  gap: 10px;
+}
+
+.boton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px
+}
